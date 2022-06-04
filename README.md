@@ -11,8 +11,7 @@
 2. exporta las variables de entornos siguiente con la data de tus credenciales de AWS 
     - Nota:sino sabes como ve al apartado crear credenciales o ve el video 
    
-    ``` export AWS_ACCESS_KEY_ID=AKIAYFQTFKR6JA5XDWE7; 
-    ```  export AWS_SECRET_ACCESS_KEY=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;
+    ``` export AWS_ACCESS_KEY_ID=AKIAYFQTFKR6JA5XDWE7; export AWS_SECRET_ACCESS_KEY=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;``` 
 
  - cambia los valores por los tuyos y copia y pega en tu bash de linux 
 3. ejecuta el comando make init o terraform init
@@ -22,8 +21,8 @@
 [mi canal](https://www.youtube.com/channel/UCfJ67eVA7DkKbbIF5ceJDMA)
 
 ## docker con terraform
-comando para compilar el docker 
-docker build --tag=terraform .
+### comando para compilar el docker 
+```docker build --tag=terraform .```
 
-comandos para ejecutar 
-docker run -it -v ${ruta}:/tmp -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} terraform init
+### comandos para ejecutar 
+```docker run -it -v ${ruta}:/tmp -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} terraform init```
