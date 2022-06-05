@@ -1,3 +1,7 @@
+
+![infra](infra.jpg)
+
+
 ## Pre requisitos
 1. Rol o usuario para poder hacer terraform apply desde local
 2. credenciales en el caso de AWS seria access key y secret access key
