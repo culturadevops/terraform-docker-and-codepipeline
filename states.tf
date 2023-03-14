@@ -1,6 +1,6 @@
 terraform{
     backend "s3" {
-        bucket = "mirepoparaterraform"
+        bucket = "docker-pipeline-tf"
         encrypt = true
         key = "terraform.tfstate"
         region = "us-east-1"
